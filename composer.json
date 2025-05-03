@@ -1,0 +1,14 @@
+{
+    "name": "mi-proyecto/myparser",
+    "autoload": {
+        "psr-4": {
+            "MiProyecto\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
